@@ -1,0 +1,27 @@
+.button-base {
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 20px;
+  border: none;
+  background-color: #1F1F1F;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  transition: background-color 0.3s;
+  border-radius: 12px;
+}
+
+.button-base:hover {
+  background-color: #434343;
+}
+
+.arrow-icon {
+  margin-left: 8px; 
+  opacity: 0.6;
+  transition: transform 0.3s;
+}
+
+.button-base:hover .arrow-icon {
+  transform: translateX(2px);
+}

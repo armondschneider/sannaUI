@@ -1,4 +1,4 @@
-.button-base {
+.button-left-arrow {
   color: white;
   display: inline-flex;
   align-items: center;
@@ -10,9 +10,18 @@
   font-weight: 400;
   transition: background-color 0.3s;
   border-radius: 12px;
-  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
-.button-base:hover {
+.button-left-arrow:hover {
   background-color: #434343;
+}
+
+.arrow-icon {
+  margin-right: 8px; 
+  opacity: 0.6;
+  transition: transform 0.3s;
+}
+
+.button-left-arrow:hover .arrow-icon {
+  transform: translateX(-2px);
 }

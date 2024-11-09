@@ -1,0 +1,46 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Configuration files for various tools
+*.log
+*.lock
+*.env
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# MacOS files
+._*
+
+# Bundler files
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Compiled code
+*.map
+*.out
+*.class
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Misc
+npm-debug.log*

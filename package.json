@@ -1,0 +1,34 @@
+{
+    "name": "sannaUI",
+    "version": "1.0.0",
+    "description": "A custom HTML, CSS, and JS UI library for web projects.",
+    "main": "dist/sannaUI.bundle.js",
+    "scripts": {
+        "build": "webpack --config build-config.js",
+        "start": "webpack serve --config build-config.js --mode development",
+        "watch": "webpack --watch --config build-config.js"
+    },
+    "keywords": [
+        "ui-library",
+        "sannaUI",
+        "html",
+        "css",
+        "javascript"
+    ],
+    "author": "Armond Schneider",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/core": "^7.21.0",
+        "@babel/preset-env": "^7.21.0",
+        "babel-loader": "^9.1.0",
+        "css-loader": "^6.8.1",
+        "html-loader": "^4.2.0",
+        "style-loader": "^3.3.3",
+        "webpack": "^5.88.2",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^4.15.1"
+    },
+    "dependencies": {
+        "tailwindcss": "^3.4.14"
+    }
+}
